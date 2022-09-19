@@ -79,7 +79,6 @@
     </array>
     <key>public.openTypeCategories</key>
     <dict>
-
       <key>.notdef</key>
       <string>base</string>
       <key>CR</key>
