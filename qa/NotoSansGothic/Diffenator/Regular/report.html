@@ -3,10 +3,11 @@
 <head>
     
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>GFR - Text</title>
+    <title>GFR - Glyphs</title>
     
     <style type="text/css">
     
+
         html{
 	  font-family: sans-serif;
 	}
@@ -121,36 +122,127 @@
             }
 
 	  
+	    @font-face { font-family: before; src: url(before.ttf); }
+	  
+
+	  
+	    @font-face { font-family: after; src: url(after.ttf); }
+	  
 
 	  
 
 	  
-	    @font-face { src: url(fonts/NotoSansGothic-Regular.ttf); font-family: Noto-Sans-Gothic-Regular; font-weight: 400; font-stretch: 100%; font-style: normal; }
+	    .before { font-family: before; }
 	  
 
 	  
-
+	    .after { font-family: after; }
 	  
 
-	  
-	    .Noto-Sans-Gothic-Regular { font-family: Noto-Sans-Gothic-Regular; font-weight: 400; font-style: normal; font-stretch: 100%; }
 	  
 	
+.cell{
+  position: relative;
+  z-index: -100;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 5pt;
+  margin: 5pt;
+  line-height: 48.0px;
+}
+.cat-strings .cell {
+  clear: both;
+  position: static;
+  float: none;
+  text-align: left;
+}
+.box-title {
+  clear: both;
+}
+
     </style>
 </head>
 <body>
     
+    <div id="nav">
+        <div id="font-toggle">Before</div>
+     </div>
+    
     <div id="content">
 	<h2>
-<b>Text</b>
+<b>Diffenator</b>
 </h2>
 	
   
     <div class="box">
-      <div class="box-title">Noto-Sans-Gothic-Regular 14pt</div>
-      <div dir="auto" class="Noto-Sans-Gothic-Regular" style="font-size: 14pt">𐌰𐌻𐌹𐌼 𐌽𐍆 𐍆𐍂𐌴𐌹𐌷𐌰𐌻𐍃 𐌾𐌰𐌷 𐍃𐌰𐌼𐌰𐌻𐌴𐌹𐌺𐍉 𐍅𐌰𐌹𐍂𐌸𐌹𐌳𐌰𐌹 𐍂𐌰𐌹𐌷𐍄𐌴𐌹𐍃 𐌲𐌹𐌱𐌽𐌰𐌽𐍃 𐌻𐌹𐌱𐌰𐌽𐌳𐌰𐌿</span>
+    <div class="box-title">Tables</div>
+     
+<div class="node" >
+GPOS
+  <div class="node" style="display:none">
+  table
+    <div class="node" style="display:none">
+    LookupList
+      <div class="node" style="display:none">
+      Lookup
+        <div class="node" style="display:none">
+        [0]
+          <div class="node" style="display:none">
+          SubTable
+            <div class="node" style="display:none">
+            [0]
+              <div class="node" style="display:none">
+              BaseArray
+                <div class="node" style="display:none">
+                BaseRecord
+                  <div class="node" style="display:none">
+                  [28]
+                    <div class="node" style="display:none">
+                    BaseAnchor
+                      <div class="node" style="display:none">
+                      [0]
+                        <div class="node" style="display:none">
+                        XCoordinate
+                          <span class="attrib-before">457</span> <span class="attrib-after">348</span>
+                        </div>
+                      </div>
+                      <div class="node" style="display:none">
+                      [2]
+                        <div class="node" style="display:none">
+                        XCoordinate
+                          <span class="attrib-before">472</span> <span class="attrib-after">348</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  
+  </div>
+</div>
+<div class="node" >
+head
+  <div class="node" style="display:none">
+  checkSumAdjustment
+    <span class="attrib-before">1534898778</span> <span class="attrib-after">1526464420</span>
+  </div>
+  <div class="node" style="display:none">
+  modified
+    <span class="attrib-before">3746434834</span> <span class="attrib-after">3758778586</span>
+  </div>
+</div>
+    </div>
+	    
+       </div>
+    
+    </div>
+
+    
 
     </div>
 </body>
